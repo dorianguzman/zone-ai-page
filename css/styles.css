@@ -328,15 +328,14 @@ p {
 .hero-cta {
     display: flex;
     gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-2xl);
 }
 
 .hero-stats {
     display: flex;
     justify-content: center;
     gap: var(--spacing-3xl);
-    margin-top: var(--spacing-xl);
-    padding-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
