@@ -332,15 +332,13 @@ p {
 }
 
 .hero-stats {
+    grid-column: 1 / -1;
     display: flex;
     justify-content: center;
     gap: var(--spacing-3xl);
-    margin-top: var(--spacing-3xl);
+    margin-top: var(--spacing-xl);
     padding-top: var(--spacing-xl);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .stat {
