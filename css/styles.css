@@ -332,7 +332,6 @@ p {
 }
 
 .hero-stats {
-    grid-column: 1 / -1;
     display: flex;
     justify-content: center;
     gap: var(--spacing-3xl);
