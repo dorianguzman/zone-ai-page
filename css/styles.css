@@ -305,9 +305,14 @@ p {
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-3xl);
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--spacing-xl);
     align-items: center;
+}
+
+.hero-image {
+    transform: scale(1.1);
+    transform-origin: center right;
 }
 
 .hero-content h1 {
